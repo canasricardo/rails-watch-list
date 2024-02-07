@@ -1,0 +1,9 @@
+<div class="container mb-3">
+  <h1>Add a new list</h1>
+  <div class="row justify-content-center">
+    <%= simple_form_for [@list] do |f| %>
+    <%= f.input :name %>
+    <%= f.submit "Add a new list", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
